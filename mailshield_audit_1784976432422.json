@@ -1,0 +1,43 @@
+{
+  "result": {
+    "riskScore": 5,
+    "riskLevel": "SAFE",
+    "category": "Legitimate Email",
+    "summary": "✅ SAFE: MailShield AI verified sender signatures and content signals. No critical phishing or scam patterns detected (5% Risk).",
+    "redFlags": [],
+    "actionChecklist": [
+      "✅ Always verify sender domain extensions (@company.com).",
+      "✅ Look out for unexpected urgent requests even in clean emails.",
+      "✅ Confirm SPF and DKIM signatures before trusting file attachments."
+    ],
+    "headerAnalysis": {
+      "parsed": false,
+      "spfStatus": "UNKNOWN",
+      "dkimStatus": "UNKNOWN",
+      "dmarcStatus": "UNKNOWN",
+      "domainMismatch": false,
+      "returnPath": null,
+      "originatingIP": null,
+      "headerFlags": []
+    },
+    "linkAnalysis": {
+      "totalLinks": 0,
+      "suspiciousLinksCount": 0,
+      "linkFlags": [],
+      "links": []
+    },
+    "breakdown": {
+      "senderCredibility": 85,
+      "contentUrgency": 15,
+      "financialRisk": 10,
+      "linkSafety": 95
+    },
+    "scannedAt": "2026-07-25T10:46:10.097Z"
+  },
+  "originalEmail": {
+    "sender": "",
+    "subject": " Congratulations on completing the AI Data Strategy with MongoDB module!",
+    "body": "You’ve earned your official AI Data Strategy with MongoDB Skill Badge to showcase your MongoDB expertise.\n\n\nDownload your certificate now in your My Learning dashboard to keep learning and growing your skills, and watch for an email to claim your Credly badge. Share it with your network, add it to your resume, or include it in your email signature to highlight your technical proficiency.\n\nContinue to Learning Dashboard",
+    "headers": ""
+  }
+}
