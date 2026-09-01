@@ -1,0 +1,17 @@
+{
+  "name": "fitvision-ai-backend",
+  "version": "1.0.0",
+  "description": "FITVISION AI Express Backend API Server",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server_native.js",
+    "dev": "node --watch src/server_native.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.48.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
